@@ -1,0 +1,30 @@
+# Triage Learnings — Patterns from user edits
+#
+# Every time you edit a triage draft before sending, the pattern is captured here.
+# Claude reads this before drafting to avoid making the same edits repeatedly.
+#
+# Format:
+#   - date: "YYYY-MM-DD"
+#     channel: "gmail|slack|whatsapp"
+#     recipient: "Name"
+#     original: "what Claude drafted"
+#     edited_to: "what the user changed it to"
+#     pattern: "inferred pattern (e.g., 'shortened greeting', 'more casual tone')"
+#
+# Seed patterns (common patterns to start with — update as you use /triage):
+
+patterns:
+  - pattern: "Match sender's language"
+    description: "If the sender wrote in Dutch, reply in Dutch. Never mix languages."
+    confidence: "high"
+
+  - pattern: "Skip pleasantries for known contacts"
+    description: "With people you email regularly, skip 'Hope you're well' type openers."
+    confidence: "high"
+
+  - pattern: "Propose specific times for scheduling"
+    description: "Never say 'let me know when works'. Always propose 2-3 specific slots."
+    confidence: "high"
+
+# Captured learnings (appended automatically by /triage):
+learnings: []

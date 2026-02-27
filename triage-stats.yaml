@@ -1,0 +1,20 @@
+# Triage Stats — Tracks draft quality over time
+#
+# Updated automatically after each /triage session.
+# The acceptance rate tells you how well Claude matches your voice.
+
+total_drafts: 0
+accepted_as_is: 0
+edited_then_sent: 0
+rejected: 0
+acceptance_rate: 0.0
+last_triage: null
+
+# Per-channel breakdown (populated after first use):
+# by_channel:
+#   gmail:
+#     total: 0
+#     accepted: 0
+#   slack:
+#     total: 0
+#     accepted: 0

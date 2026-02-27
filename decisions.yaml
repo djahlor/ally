@@ -1,0 +1,29 @@
+# Decision Log — Captures key decisions with context
+# Read by Claude to maintain consistency and avoid revisiting settled decisions
+# Append-only: new decisions go at the bottom
+#
+# Each entry captures: what was decided, why, what alternatives were considered,
+# and when it can be revisited.
+#
+# What to log:
+#   - Decisions that affect multiple sessions or future behavior
+#   - Settled debates that could resurface (tool choices, workflow patterns)
+#   - Decisions with non-obvious context (why X over Y)
+#
+# What to skip:
+#   - One-off task decisions
+#   - Obvious choices
+#   - Personal preferences already captured in CLAUDE.md
+
+decisions:
+  - id: "dec-001"
+    date: "2026-01-01"
+    category: "example"
+    decision: "Example: Chose Slack over Discord for team communication"
+    why: "Team already uses Slack. Lower switching cost."
+    alternatives:
+      - "Discord — rejected (team unfamiliar, migration overhead)"
+    revisit_when: "If team grows past 50 and needs community features"
+    impact: "Slack MCP is the primary team messaging channel"
+
+# New decisions are appended below by Claude:

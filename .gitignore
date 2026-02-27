@@ -1,0 +1,40 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Cache
+cache/
+.cache/
+
+# Local overrides (for users who want to keep personal changes untracked)
+local/
+*.local.md
+*.local.yaml
+
+# Secrets (never commit these)
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+token.json
+
+# Backups created by install.sh
+backups/
+*.backup
+
+# Build artifacts
+dist/
+build/
+node_modules/
